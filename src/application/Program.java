@@ -43,6 +43,7 @@ public class Program {
 			} else {
 				reservation.updateDates(checkin, checkout);
 				System.out.println("Reservation: " + reservation);
+				
 			}
 		}
 		sc.close();
